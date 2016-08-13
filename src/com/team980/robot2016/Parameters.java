@@ -16,9 +16,13 @@ public class Parameters {
 	// --- ENCODERS --- 
 	public static int leftDriveEncA = 3;
 	public static int leftDriveEncB = 4;
+	public static boolean leftDriveEncInv = false;
 	
 	public static int rightDriveEncA = 1;
 	public static int rightDriveEncB = 2;
+	public static boolean rightDriveEncInv = true;
+	
+	public static int driveEncoderCounts = 1024;
 	
 	// --- JOYSTICKS / DRIVER INPUTS ---
 	public static int driveJsChannel = 0;
